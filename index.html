@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="Width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is my first web page. I hope you like it.">
+        <title>My First Web Page</title>
+    </head>
+    
+    <body>
+        <h1>HTML LISTS</h1>
+        <h3>Ordered Lists In Roman</h3>
+        <ol type="i">
+            <li>Introduction to my website and its features</li>
+            <li>Overview of the website's purpose and goals</li>
+            <li>Details about the content and structure of the site</li>
+            <li>Conclusion summarizing the key points of the website</li>
+
+        </ol>
+
+        <h1> Html Gaming </h2>
+        <img src= "https://images.pexels.com/photos/7773803/pexels-photo-7773803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=" Image of a ladys' hand holding a Ps4 dualshock controller" width="350" height="550">
+        
+        <video width="350" height="550" controls>
+            <source src="https://videos.pexels.com/video-files/7774751/7774751-uhd_1440_2560_30fps.mp4" type="video/mp4" alt="Video of a gentleman playing a video game on a ps4 console">
+        </video>  
+        <h1> HMTL Tables</h1>
+        <table border="2.5"> 
+            <thead>
+                <tr> 
+                    <th> Name</th> 
+                    <th> Address</th>
+                    <th> Mobile</th>
+                    <th> Emails</th>
+                </tr> 
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fausto</td>
+                    <td>Kenya</td>
+                    <td>0729608410</td>
+                    <td>Kamaukaranja531@gmail.com</td>
+                </tr>
+
+                <tr>
+                    <td>Ann</td>
+                    <td>Tanzania</td>
+                    <td>0729608410</td>
+                    <td>annyambura@gmail.com</td>
+                </tr>
+
+                <tr>
+                    <td>Benedict</td>
+                    <td>Rwanda</td>
+                    <td>0729608410</td>
+                    <td>benedict25@gmail.com</td>
+                </tr>
+
+                <tr>
+                    <td>Felicity</td>
+                    <td>Kenya</td>
+                    <td>0729608410</td>
+                    <td>felicity208@gmail.com</td>
+                </tr>
+
+                <tr>
+                    <td>Josphat</td>
+                    <td>Somalia</td>
+                    <td>0729608410</td>
+                    <td>Jospahtt370@gmail.com</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <h1> HTML forms</h1>
+        <form action="/submit-form" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="user_name" name="user_name" placeholder="Name / Username" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password" placeholder="Your Password" required>
+            <br><br>
+ 
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label for="country">Country:</label>
+            <select name="country" id="country" required>
+                <option disabled selected>***SELECT COUNTRY***</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Somalia">Somalia</option>
+                <option value="Rwanda">Rwanda</option>
+            </select>
+            <br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="female" required> Female
+            <input type="radio" id="gender" name="gender" value="male" required> Male
+            <br><br>
+
+            <label for="Games">Favorite Game:</label>
+            <input type="checkbox" id="Games" name="Games" value="Fifa"> Fifa
+            <input type="checkbox" id="Games" name="Games" value="Call of Duty"> Call of Duty
+            <input type="checkbox" id="Games" name="Games" value="Fortnite"> Fortnite
+            <input type="checkbox" id="Games" name="Games" value="GTA"> GTA
+            <br><br>
+
+            <label for="message">Message Area:</label>
+            <textarea id="message" name="message" rows="4" cols="30" placeholder="Type your message here..."></textarea>
+            <br><br><br>
+
+            <button>Submit</button>
+            <input type="button" value="Cancel">
+            <br><br>
+
+        </form>    
+    </body> 
+</html>
